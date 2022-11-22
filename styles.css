@@ -1,0 +1,150 @@
+.hamburger {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+}
+
+.Cross-Icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+.menu-items {
+  display: none;
+  margin: 0;
+  padding: 9px 0;
+  list-style: none;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(218, 198, 156, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  height: 100%;
+}
+
+.menu-item {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid rgb(129, 117, 117);
+}
+
+.nav-list {
+  display: none;
+}
+
+.df {
+  display: flex;
+}
+
+#home {
+  display: flexbox;
+  padding: 75px 10px;
+  justify-content: center;
+  background-color: rgb(246, 249, 252);
+}
+
+#greeting {
+  color: hsl(6, 82%, 59%);
+  font-size: 20px;
+}
+
+#title h1 {
+  font-size: 40px;
+  width: 89%;
+}
+
+#description {
+  padding: 20px;
+  background-color: rgb(246, 249, 252);
+  border: 4px solid #fff;
+}
+
+hr {
+    color: rgb(255, 43, 43);
+    
+}
+
+#programs {
+  padding: 10px;
+  background-color: rgb(31, 41, 41);
+  color: #fff;
+}
+
+#programs h2 {
+  text-align: center;
+}
+
+#programs div {
+  width: 90%;
+  background-color: rgb(37, 73, 73);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+#details-title {
+  color: red;
+}
+
+#programs #details img {
+  width: 20px;
+  height: 20px;
+}
+
+#join-btn {
+  background-color: rgb(211, 78, 16);
+  border: none;
+  margin-left: 25%;
+  color: #fff;
+  height: 50px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    margin-left: 58%;
+    margin-right: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 30px;
+    z-index: 100;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .menu-item {
+    text-decoration: none;
+  }
+
+  header {
+    background-color: aqua;
+    width: 100%;
+    height: 80px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .Cross-Icon {
+    display: none;
+  }
+}
