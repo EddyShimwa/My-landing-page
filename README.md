@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portforio
-
-> My portfolio page
+#page
 
 
 ## Built With
@@ -22,9 +20,6 @@ https://eddyshimwa.github.io/Portforio/
 - Twitter: [@eddy56388406](https://twitter.com/eddy56388406)
 - LinkedIn: [Pray Eddy SHIMWA]([https://www.linkedin.com/in/pray-eddy-shimwa-18a6751b6/]
 
-👤 **Author 2 **
-
-- [Abu Raihan](https//github.com/raihan2bd)
 
 ## 🤝 Contributing
 
