@@ -113,6 +113,51 @@ hr {
   margin-top: 20px;
 }
 
+#speakers {
+  padding: 20px;
+}
+
+#featured-speakers{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#featured-speakers hr {
+  width: 58px;
+  color: rgb(230, 112, 2);
+  opacity: 89;
+  margin: auto;
+}
+
+.speaker {
+  display: flex;
+  padding: 10px;
+}
+
+.Details {
+  margin-top: 10px;
+}
+
+.Details hr {
+  width: 30px;
+  color: rgb(230, 112, 2);
+  opacity: 89;
+}
+.image {
+  padding: 20px;
+}
+.image img {
+  width: 130px;
+}
+
+#more-btn {
+  border: 1px solid rgb(194, 194, 194);
+  text-align: center;
+  padding: 10px;
+}
+
+
+
 @media screen and (min-width: 768px) {
   .nav-list {
     margin-left: 58%;

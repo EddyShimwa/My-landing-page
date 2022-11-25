@@ -1,0 +1,380 @@
+.hamburger {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+}
+
+.Cross-Icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+.menu-items {
+  display: none;
+  margin: 0;
+  padding: 9px 0;
+  list-style: none;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(229, 216, 189, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  height: 100%;
+}
+
+.menu-item-mobile {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid rgb(129, 117, 117);
+}
+
+.nav-list {
+  display: none;
+}
+
+.df {
+  display: flex;
+}
+
+#home {
+  padding: 75px 10px;
+  justify-content: center;
+  background-image: url(/Images/main_background.png);
+}
+
+.p-icon img {
+  display: flex;
+  width: 50px;
+  margin-top: 25px;
+}
+
+#home img {
+  width: 90%;
+}
+
+#greeting {
+  color: hsl(6deg, 82%, 59%);
+  font-size: 20px;
+}
+
+#title h1 {
+  font-size: 40px;
+  width: 89%;
+}
+
+.main-program {
+  background-color: rgb(7, 37, 67) ;
+  color: #fff;
+  height: 770px;
+}
+
+.main-program h2 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30%;
+}
+
+#description {
+  padding: 20px;
+  background-color: rgb(246, 249, 252);
+  border: 4px solid #fff;
+}
+
+hr {
+  color: rgb(255, 43, 43);
+}
+
+#programs {
+  padding: 10px;
+  background-color: rgb(31, 41, 41);
+  color: #fff;
+}
+
+#programs h2 {
+  text-align: center;
+  color: aqua;
+}
+
+#programs div {
+  width: 90%;
+  background-color: rgb(37, 73, 73);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.program-list {
+  margin-bottom: 30px;
+}
+
+.programs {
+  padding-bottom: 12px;
+  display: flex;
+  width: 90%;
+  font-size: 12px;
+  border: 1px solid rgb(39, 130, 152);
+  margin: auto;
+  background-color: rgb(14, 38, 38);
+  margin-bottom: 4px;
+}
+
+.programs .p-paragraph {
+  display: flex;
+  justify-self: flex-start;
+  margin-left: 20%;
+  margin-top: 25px;
+}
+
+.p-header h3 {
+  font-size: 15px;
+  margin-top: 25px;
+  padding-left: 35px;
+}
+
+#programs #details img {
+  width: 20px;
+  height: 20px;
+}
+
+.see-the-program a {
+  text-decoration: none;
+  background-color: rgb(211, 78, 16);
+  border: none;
+  margin-left: 25%;
+  color: #fff;
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#speakers {
+  padding: 20px;
+}
+
+#featured-speakers {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#speakers img {
+  width: 50px;
+}
+
+.Details hr {
+  width: 30px;
+  color: rgb(230, 112, 2);
+  opacity: 89;
+}
+
+#featured-speakers hr {
+  width: 58px;
+  color: rgb(230, 112, 2);
+  opacity: 89;
+  margin: auto;
+}
+
+.speaker {
+  display: flex;
+  padding: 10px;
+}
+
+.Details {
+  margin-top: 10px;
+}
+
+.image {
+  padding: 20px;
+}
+
+#more-btn {
+  border: 1px solid rgb(194, 194, 194);
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    max-width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    z-index: 100;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 500;
+    box-shadow: 0 3px 5px rgba(155, 155, 155, 0.3);
+    background: rgba(255, 255, 255, 0.5);
+    top: 0;
+
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .Cross-Icon {
+    display: none;
+  }
+
+  .menu-item a {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    text-decoration: none;
+    width: auto;
+    gap: 10px;
+  }
+
+  .menu-item img {
+    width: 200px;
+    height: 90px;
+  }
+
+  #description {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    padding: 40px;
+  }
+
+  #home {
+    padding-top: 15%;
+    background-image: url(/Images/main_background.png);
+  }
+
+  #speakers {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+
+  #speakers .more-btn {
+
+  }
+
+  #more-btn {
+    display: none !important;
+  }
+
+  .main-program h2 {
+    display: flex;
+    padding-left: 42%;
+    color: #fff;
+  }
+
+  .program-list {
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-left: 6%;
+  }
+
+  .programs {
+    width: 20%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(11, 57, 57);
+    flex-direction: column;
+  }
+
+  .programs:hover {
+    width: 20%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(11, 57, 57);
+    flex-direction: column;
+    border: 1px solid white;
+    transition: 2s;
+  }
+
+  .see-the-program a {
+    color: rgb(251, 251, 251);
+    display: flex;
+    text-decoration: none;
+    border: 1px solid rgb(244, 178, 124);
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(255, 121, 54);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .p-icon {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .p-header {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .p-space {
+    margin-top: 30px;
+  }
+
+  .p-paragraph {
+    width: 100%;
+    text-align: center;
+    word-break: keep-all;
+    word-wrap: normal;
+  }
+
+  .main-program {
+    background-image: url(/Images/bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .top-list a:hover,
+  .nav-list a:hover {
+    text-decoration: none;
+    color: var(--light-red);
+  }
+
+  .see-more a:hover {
+    color: var(--light);
+  }
+
+  .speaker-ctn {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=index.css.map */
