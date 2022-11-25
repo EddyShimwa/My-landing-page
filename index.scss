@@ -70,8 +70,7 @@
 }
 
 hr {
-    color: rgb(255, 43, 43);
-    
+  color: rgb(255, 43, 43);
 }
 
 #programs {
@@ -99,6 +98,10 @@ hr {
   color: red;
 }
 
+.image img {
+  width: 130px;
+}
+
 #programs #details img {
   width: 20px;
   height: 20px;
@@ -117,9 +120,15 @@ hr {
   padding: 20px;
 }
 
-#featured-speakers{
+#featured-speakers {
   text-align: center;
   padding-top: 20px;
+}
+
+.Details hr {
+  width: 30px;
+  color: rgb(230, 112, 2);
+  opacity: 89;
 }
 
 #featured-speakers hr {
@@ -138,16 +147,8 @@ hr {
   margin-top: 10px;
 }
 
-.Details hr {
-  width: 30px;
-  color: rgb(230, 112, 2);
-  opacity: 89;
-}
 .image {
   padding: 20px;
-}
-.image img {
-  width: 130px;
 }
 
 #more-btn {
@@ -155,8 +156,6 @@ hr {
   text-align: center;
   padding: 10px;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .nav-list {
