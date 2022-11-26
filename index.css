@@ -1,6 +1,6 @@
 * {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hamburger {
@@ -91,7 +91,7 @@
 .main-program {
   background-image: url(./Images/main-program.png);
   color: #fff;
-  height: 839px;
+  height: 850px;
 }
 
 .main-program h2 {
@@ -176,6 +176,7 @@ hr {
   justify-content: center;
   size: 20;
   padding: 10px;
+  filter: grayscale(100%) contrast(30%);
 }
 
 #programs #details img {
@@ -221,8 +222,9 @@ hr {
 }
 
 .speaker {
+  padding: 30px;
+  padding-top: 0;
   display: flex;
-  padding: 10px;
 }
 
 .Details {
@@ -240,7 +242,7 @@ hr {
 }
 
 #footer-div {
-  background-color: black;
+  background-color: #272a31;
 }
 
 #footer-div h2 {
@@ -260,12 +262,78 @@ hr {
   align-items: center;
 }
 
+.footer-images {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
-  .myLinks li {
-    display: inline-flex;
-    float: right;
-    justify-content: space-between;
+  nav .myLinks {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
     padding-right: 10px;
+    align-items: center;
+    background-color: #36393e;
+    color: #fff;
+  }
+
+  .see-the-program a {
+    color: rgb(251, 251, 251);
+    display: flex;
+    text-decoration: none;
+    border: 1px solid rgb(244, 178, 124);
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    background-color: rgb(255, 121, 54);
+    border-radius: 5px;
+  }
+
+  nav .myLinks li {
+    color: #fff;
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    filter: grayscale (50%) contrast(50%);
+  }
+
+  .menu-item a {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    text-decoration: none;
+    width: auto;
+    gap: 10px;
+  }
+
+  nav .myLinks li a {
+    display: flex;
+    color: aliceblue;
+    margin-top: 10px;
+  }
+
+  .p-icon img {
+    display: flex;
+    height: 60px;
+    width: 50px;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  .menu-item img {
+    width: 200px;
+    height: 90px;
+  }
+
+  nav .myLinks li img {
+    width: 20px;
+    display: flex;
+    filter: grayscale (50%) contrast(50%);
   }
 
   .nav-list {
@@ -301,26 +369,12 @@ hr {
     display: none;
   }
 
-  .menu-item a {
-    display: flex;
-    flex-direction: row;
-    color: red;
-    text-decoration: none;
-    width: auto;
-    gap: 10px;
-  }
-
-  .menu-item img {
-    width: 200px;
-    height: 90px;
-  }
-
   #description {
     display: flex;
-    width: 80%;
+    width: 46%;
     height: 20%;
-    margin: auto;
-    padding: 40px;
+    margin-left: 44px;
+    padding-left: 33px;
   }
 
   #home {
@@ -329,16 +383,9 @@ hr {
     background-image: url(./Images/main_background.png);
   }
 
-  .p-icon img {
-    display: flex;
-    height: 60px;
-    width: 50px;
-    margin: auto;
-    padding-top: 10px;
-  }
-
   #home img {
-    width: 60%;
+    width: 48%;
+    padding: 51px;
   }
 
   #more-btn {
@@ -387,19 +434,6 @@ hr {
     transition: 500ms;
   }
 
-  .see-the-program a {
-    color: rgb(251, 251, 251);
-    display: flex;
-    text-decoration: none;
-    border: 1px solid rgb(244, 178, 124);
-    width: 20%;
-    margin: auto;
-    margin-top: 15px;
-    justify-content: center;
-    background-color: rgb(255, 121, 54);
-    border-radius: 5px;
-  }
-
   .p-header {
     color: rgb(255, 89, 0);
     width: 80%;
@@ -408,8 +442,10 @@ hr {
 
   #time {
     display: block;
-    width: 80%;
+    width: 26%;
     text-align: center;
+    margin-left: 38px;
+    margin-top: 15px;
   }
 
   .main-program {

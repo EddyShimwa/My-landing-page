@@ -9,6 +9,10 @@
   margin: 10px 10px;
 }
 
+.myLinks {
+  display: none;
+}
+
 .Cross-Icon {
   width: 40px;
   height: 40px;
@@ -146,7 +150,7 @@ hr {
 }
 
 footer {
-  background-color: rgb(29, 40, 40);
+  background-color: rgb(65, 65, 65);
   color: #fff;
 }
 
@@ -165,13 +169,65 @@ footer {
 #footer-div img {
   flex-direction: row;
   height: 60px;
-  margin-left: 31px;
+  margin-left: 24px;
   justify-content: center;
   size: 20;
   padding: 10px;
+  filter: grayscale(100%) contrast(30%);
 }
 
 @media screen and (min-width: 768px) {
+  nav .myLinks {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+    background-color: #36393e;
+    color: #fff;
+  }
+
+  nav .myLinks li {
+    color: #fff;
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    filter: grayscale (50%) contrast(50%);
+  }
+
+  .menu-item a {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    text-decoration: none;
+    width: auto;
+    gap: 10px;
+  }
+
+  nav .myLinks li a {
+    display: flex;
+    color: aliceblue;
+    margin-top: 10px;
+  }
+
+  .menu-item img {
+    width: 200px;
+    height: 90px;
+  }
+
+  .section-one img {
+    width: 30%;
+    margin: auto;
+  }
+
+  nav .myLinks li img {
+    width: 20px;
+    display: flex;
+    filter: grayscale (50%) contrast(50%);
+  }
+
   body {
     background-color: #fff;
     display: flex;
@@ -210,20 +266,6 @@ footer {
 
   .Cross-Icon {
     display: none;
-  }
-
-  .menu-item a {
-    display: flex;
-    flex-direction: row;
-    color: red;
-    text-decoration: none;
-    width: auto;
-    gap: 10px;
-  }
-
-  .menu-item img {
-    width: 200px;
-    height: 90px;
   }
 
   #description {
@@ -293,11 +335,6 @@ footer {
     width: 60%;
     margin: auto;
     padding-bottom: 20px;
-  }
-
-  .section-one img {
-    width: 30%;
-    margin: auto;
   }
 
   .section-two {

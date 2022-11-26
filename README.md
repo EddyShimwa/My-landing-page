@@ -50,9 +50,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Completed Mobile version]**
-- **[Completed Desktop version]**
-- **[Added functionalities on menu buttons for mobile version]**
+- **A user is able to toogle between pages by clicking the hamburger button**
+
+  <img src="./Images/feature-1.png" alt="logo" width="300"  height="auto" />
+
+- **A user is able to click to the buutton "more" in order to view more speakers**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<img src="./Images/feature-2.png" alt="logo" width="300"  height="auto" />
+
+ - **Added functionalities on menu buttons for mobile version**
+
+<img src="./Images/feature-3.png" alt="logo" width="300"  height="auto" /> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,25 +68,11 @@
 
 - [Live Demo Link](https://eddyshimwa.github.io/CapStone-Project/)
 
+- [Live Video Link](https://www.loom.com/share/f9df8e9c261b472585d543880875a4be)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-### Prerequisites
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
-### Install
-
-### Usage
-
-
-
-### Run tests
-
 
 
 ### Deployment
@@ -100,17 +94,11 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🔭 Important Features <a name="future-features"></a>
 
 
+
+- ** A user is abble to 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -132,7 +120,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Cindy shin as the author of this amazing design which help us learn..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

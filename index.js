@@ -34,6 +34,24 @@ const speakers = [
     name: 'Claudine Besker',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
+  {
+    Image: './Images/speaker-2.png',
+    title: 'Director in Social affairs',
+    name: 'Frank Ghosh',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    Image: './Images/speaker-3.png',
+    title: 'Human Resources',
+    name: 'Claudine Besker',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    Image: './Images/speaker-3.png',
+    title: 'Human Resources',
+    name: 'Claudine Besker',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
 ];
 const moreBtn = document.createElement('div');
 moreBtn.id = 'more-btn';
@@ -86,7 +104,7 @@ for (let i = 0; i < speakers.length; i += 1) {
 
 const allSpeakers = document.getElementsByClassName('speaker');
 
-const speakersToShow = 4;
+const speakersToShow = 6;
 const numberOfSpeakers = speakers.length;
 for (let i = 0; i < allSpeakers.length; i += 1) {
   allSpeakers[i].style.display = 'none';
