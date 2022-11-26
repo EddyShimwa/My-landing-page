@@ -162,11 +162,7 @@ hr {
 }
 
 #more-btn img {
-  width: 30px;
-}
-
-#speakers img {
-  width: 50px;
+  width: 25px !important;
 }
 
 #footer-div img {
@@ -177,6 +173,10 @@ hr {
   size: 20;
   padding: 10px;
   filter: grayscale(100%) contrast(30%);
+}
+
+#footer-div-two img {
+  width: 50%;
 }
 
 #programs #details img {
@@ -208,10 +208,8 @@ hr {
   width: 30px;
   color: rgb(230, 112, 2);
   opacity: 89;
-}
-
-.Details i {
-  color: rgb(255, 30, 0);
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 
 #featured-speakers hr {
@@ -222,17 +220,30 @@ hr {
 }
 
 .speaker {
-  padding: 30px;
+  padding: 7px;
   padding-top: 0;
   display: flex;
 }
 
 .Details {
+  width: auto;
   margin-top: 10px;
+  margin-left: 30px;
 }
 
-.image {
-  padding: 20px;
+.Details i {
+  color: rgb(255, 30, 0);
+  font-size: 12px;
+}
+
+.Details h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.Details p {
+  font-size: 13px;
+  line-height: 15px;
 }
 
 #more-btn {
@@ -268,6 +279,15 @@ hr {
   align-items: center;
 }
 
+#footer-div-two {
+  display: flex;
+  align-items: center;
+}
+
+#footer-div-two h5 {
+  font-size: 12px;
+}
+
 @media screen and (min-width: 768px) {
   nav .myLinks {
     height: 25px;
@@ -293,6 +313,10 @@ hr {
     border-radius: 5px;
   }
 
+  nav .myLinks ul {
+    margin-right: 100px;
+  }
+
   nav .myLinks li {
     color: #fff;
     display: inline-flex;
@@ -300,12 +324,13 @@ hr {
     align-items: center;
     padding: 10px;
     filter: grayscale (50%) contrast(50%);
+    text-decoration: none;
   }
 
   .menu-item a {
     display: flex;
     flex-direction: row;
-    color: red;
+    color: #272a31;
     text-decoration: none;
     width: auto;
     gap: 10px;
@@ -315,6 +340,26 @@ hr {
     display: flex;
     color: aliceblue;
     margin-top: 10px;
+    text-decoration: none;
+  }
+
+  nav #myLoogo {
+    margin-left: 300px;
+    margin-right: 218px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+  }
+
+  nav #myLoogo2 {
+    margin-right: 115px;
+    width: 120px;
+    height: 70px;
+    border: 3px solid red;
+  }
+
+  #home-about a {
+    color: red;
   }
 
   .p-icon img {
@@ -323,11 +368,6 @@ hr {
     width: 50px;
     margin: auto;
     padding-top: 10px;
-  }
-
-  .menu-item img {
-    width: 200px;
-    height: 90px;
   }
 
   nav .myLinks li img {
@@ -345,6 +385,7 @@ hr {
     list-style: none;
     text-decoration: none;
     z-index: 100;
+    margin-bottom: 0;
   }
 
   .menu-items {
@@ -357,7 +398,7 @@ hr {
     position: fixed;
     z-index: 500;
     box-shadow: 0 3px 5px rgba(155, 155, 155, 0.3);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255);
     top: 0;
   }
 
@@ -441,10 +482,10 @@ hr {
   }
 
   #time {
-    display: block;
-    width: 26%;
-    text-align: center;
-    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 50px;
     margin-top: 15px;
   }
 
@@ -463,7 +504,7 @@ hr {
   }
 
   #speakers img {
-    width: 90px;
+    width: 120px;
   }
 
   .speaker {
@@ -475,11 +516,12 @@ hr {
   }
 
   #footer-div {
-    background-color: black;
+    background-color: hsl(222, 11%, 17%);
     color: rgb(196, 196, 196);
     width: 100%;
     align-items: center;
     margin-right: 100px;
+    height: 250px;
   }
 
   #footer-div h2 {
@@ -505,5 +547,22 @@ hr {
     margin: auto;
     justify-content: center;
     padding: 10px;
+  }
+
+  #footer-div-two img {
+    background-color: #fff;
+    display: flex;
+    color: rgb(122, 132, 141);
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 300px;
+  }
+
+  #footer-div-two h5 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    width: 50%;
   }
 }

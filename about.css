@@ -145,7 +145,6 @@ hr {
   width: 80%;
   text-align: center;
   margin: auto;
-  display: flex;
   padding: 10px;
 }
 
@@ -176,6 +175,24 @@ footer {
   filter: grayscale(100%) contrast(30%);
 }
 
+#footer-div-two {
+  display: none;
+}
+
+#footer-div-3 {
+  display: flex;
+  align-items: center;
+}
+
+#footer-div-3 img {
+  width: 50%;
+  height: auto;
+}
+
+#footer-div-3 h5 {
+  font-size: 10px;
+}
+
 @media screen and (min-width: 768px) {
   nav .myLinks {
     height: 25px;
@@ -194,27 +211,53 @@ footer {
     list-style: none;
     align-items: center;
     padding: 10px;
+    text-decoration: none;
     filter: grayscale (50%) contrast(50%);
   }
 
   .menu-item a {
     display: flex;
     flex-direction: row;
-    color: red;
+    color: #36393e;
     text-decoration: none;
     width: auto;
     gap: 10px;
+  }
+
+  nav .myLinks ul {
+    margin-right: 100px;
   }
 
   nav .myLinks li a {
     display: flex;
     color: aliceblue;
     margin-top: 10px;
+    text-decoration: none;
+  }
+
+  nav #myLoogo {
+    margin-left: 300px;
+    margin-right: 218px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+  }
+
+  nav #myLoogo2 {
+    margin-right: 115px;
+    width: 120px;
+    height: 70px;
+    border: 3px solid rgb(255, 55, 0);
+  }
+
+  #home-about a {
+    color: red;
   }
 
   .menu-item img {
-    width: 200px;
-    height: 90px;
+    padding: 10px;
+    width: 120px;
+    height: 70px;
   }
 
   .section-one img {
@@ -244,6 +287,7 @@ footer {
     list-style: none;
     text-decoration: none;
     z-index: 100;
+    margin-bottom: 0;
   }
 
   .menu-items {
@@ -256,7 +300,7 @@ footer {
     position: fixed;
     z-index: 500;
     box-shadow: 0 3px 5px rgba(155, 155, 155, 0.3);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255);
     top: 0;
   }
 
@@ -346,14 +390,14 @@ footer {
   }
 
   .section-two h2 {
-    width: auto;
-    margin-left: 400px;
+    width: 100%;
+    text-align: center;
   }
 
   .section-two #Image {
     display: flex;
     width: 50%;
-    margin-left: 200px;
+    margin: auto;
     align-items: center;
   }
 
@@ -365,14 +409,14 @@ footer {
     display: flex;
     text-align: center;
     color: aliceblue;
-    background-color: rgb(26, 25, 25);
+    background-color: rgb(164, 143, 143);
   }
 
   #footer-div {
     width: 50%;
     margin: auto;
     align-items: flex-start;
-    background-color: black;
+    background-color: rgb(170, 147, 147);
   }
 
   #footer-div h5 {
@@ -381,6 +425,24 @@ footer {
 
   #footer-div img,
   #footer-div h2 {
+    display: none;
+  }
+
+  #footer-div-two {
+    background-color: #1c1f21;
+    display: flex;
+    color: rgb(122, 132, 141);
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer-div-two h1 {
+    padding: 100px;
+    color: aliceblue;
+    width: 40%;
+  }
+
+  #footer-div-3 {
     display: none;
   }
 }
