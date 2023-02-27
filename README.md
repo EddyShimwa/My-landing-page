@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./Images/murple_logo.png" alt="logo" width="140"  height="auto" />
+ ![myLogo](https://user-images.githubusercontent.com/88631022/221567325-872207e9-ca42-41f9-998a-1605f299b3f0.PNG)
   <br/>
 
 </div>
@@ -52,15 +52,20 @@
 
 - **A user is able to toogle between pages by clicking the hamburger button**
 
-  <img src="./Images/feature-1.png" alt="logo" width="300"  height="auto" />
+![image](https://user-images.githubusercontent.com/88631022/221566520-efb24684-bdd9-4454-9001-f546b0604edf.png)
 
-- **A user is able to click to the buutton "more" in order to view more speakers**
+![image](https://user-images.githubusercontent.com/88631022/221566696-00c0d063-d0b8-4caa-9c58-29f5517999e6.png)
+
+![image](https://user-images.githubusercontent.com/88631022/221566960-2e99924d-478e-45ed-aecd-6c8a95db0164.png)
+
+![image](https://user-images.githubusercontent.com/88631022/221567142-13263531-6de3-42c2-a665-fa0d3c9197cc.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<img src="./Images/feature-2.png" alt="logo" width="300"  height="auto" />
+
 
  - **Added functionalities on menu buttons for mobile version**
 
-<img src="./Images/feature-3.png" alt="logo" width="300"  height="auto" /> 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
