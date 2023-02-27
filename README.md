@@ -58,12 +58,11 @@
 
 ![image](https://user-images.githubusercontent.com/88631022/221566960-2e99924d-478e-45ed-aecd-6c8a95db0164.png)
 
+ - **Added responsiveness**
+
 ![image](https://user-images.githubusercontent.com/88631022/221567142-13263531-6de3-42c2-a665-fa0d3c9197cc.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
- - **Added functionalities on menu buttons for mobile version**
 
 
 
@@ -116,7 +115,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project star this repository
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
