@@ -33,7 +33,7 @@
 
 > 
 
-**[Creative Commons Global Summit]** Is a first capstone project in microverse, It includes all the lessons we learned in 4 weeks including HTML, javaScript, CSS, bootstrap 
+**[Creative Commons Global Summit]** This the landing page which contains the various pages like about page and homepage and a user is able to view speakers and the companies which sponsored the project
 
 ## 🛠 Built With <a name="built-with"></a>
 
